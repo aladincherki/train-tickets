@@ -12,7 +12,7 @@ public class Voiture {
 	
 
 	@Id
-    @GeneratedValue(strategy = GenerationType.UUID)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private UUID id;
 	
 	private Integer nbrPlace;

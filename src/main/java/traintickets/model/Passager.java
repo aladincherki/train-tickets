@@ -12,7 +12,7 @@ import jakarta.persistence.*;
 public class Passager {
 	
     @Id
-    @GeneratedValue(strategy = GenerationType.UUID)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private UUID id;
 	
     private String cin;

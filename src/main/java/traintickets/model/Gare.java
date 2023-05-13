@@ -12,7 +12,7 @@ import jakarta.persistence.*;
 public class Gare {
 	
     @Id
-    @GeneratedValue(strategy = GenerationType.UUID)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private UUID id;
 	
     @Column(name = "libelle_fr") 

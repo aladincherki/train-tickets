@@ -11,7 +11,7 @@ import jakarta.persistence.*;
 public class Ville {
 	
     @Id
-    @GeneratedValue(strategy = GenerationType.UUID)
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private UUID id;
 	
     @Column(name = "libelle_fr") 
