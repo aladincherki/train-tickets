@@ -17,13 +17,13 @@ import java.util.Map;
 @RequestMapping("/load")
 public class LoadController {
 
-    @Autowired
+/*    @Autowired
     JobLauncher jobLauncher;
 
     @Autowired
-    Job job;
+    Job job;*/
 
-    @GetMapping
+/*    @GetMapping
     public BatchStatus load() throws JobParametersInvalidException, JobExecutionAlreadyRunningException, JobRestartException, JobInstanceAlreadyCompleteException {
 
 
@@ -40,5 +40,5 @@ public class LoadController {
         }
 
         return jobExecution.getStatus();
-    }
+    }*/
 }

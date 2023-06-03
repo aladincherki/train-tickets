@@ -1,3 +1,4 @@
+/*
 package traintickets.batch;
 
 import java.util.List;
@@ -25,3 +26,4 @@ public class TrajetWriter implements ItemWriter<Train> {
 	}
 
 }
+*/

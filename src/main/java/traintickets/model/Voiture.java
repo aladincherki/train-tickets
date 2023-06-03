@@ -5,7 +5,7 @@ import lombok.Data;
 import java.util.ArrayList;
 import java.util.UUID;
 
-import jakarta.persistence.*;
+import javax.persistence.*;
 
 @Entity
 public class Voiture {

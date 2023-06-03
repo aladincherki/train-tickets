@@ -2,7 +2,7 @@ package traintickets.model;
 
 import java.util.UUID;
 
-import jakarta.persistence.*;
+import javax.persistence.*;
 import lombok.Data;
 
 @Entity

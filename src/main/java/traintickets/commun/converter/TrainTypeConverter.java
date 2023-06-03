@@ -1,7 +1,6 @@
 package traintickets.commun.converter;
 
-import jakarta.persistence.AttributeConverter;
-import jakarta.persistence.Converter;
+import javax.persistence.*;
 import traintickets.commun.enums.TrainTypeEnum;
 
 @Converter(autoApply = true)

@@ -6,7 +6,8 @@ import java.util.ArrayList;
 import java.util.Set;
 import java.util.UUID;
 
-import jakarta.persistence.*;
+
+import javax.persistence.*;
 
 @Entity
 public class Gare {

@@ -66,33 +66,33 @@ public class TrainTicketsApplication implements CommandLineRunner{
 	public void run(String... args) throws Exception {
 
 		// save villes
-		villeRepository.saveAll(getVilles());
+		//villeRepository.saveAll(getVilles());
 		
 		// save langs	
-		langRepository.saveAll(getLangs());
+		//langRepository.saveAll(getLangs());
 		
 		// save TrainState
-		trainStateRepository.saveAll(getTrainState());
+		//trainStateRepository.saveAll(getTrainState());
 		
 		// save a train 
-		Train train = trainRepository.save(getTrain());
+		//Train train = trainRepository.save(getTrain());
 		
 		// save gares
-		this.gareRepository.saveAll(getGares());
+		//this.gareRepository.saveAll(getGares());
 		
 		
 		// save voitures
 		
-		Voiture voiture1 = new Voiture();
+		/*Voiture voiture1 = new Voiture();
 		voiture1.setId(UUID.randomUUID());
 		voiture1.setNbrPlace(10);
 		voiture1.setNum("21");
-		voiture1.setTrain(train);
+		voiture1.setTrain(train);*/
 		//voiture1.setPlaces(getPlaces());
-		Voiture savedVoiture = this.voitureRepository.save(voiture1);
+		//Voiture savedVoiture = this.voitureRepository.save(voiture1);
 		
 		// save places
-		this.placeRepository.saveAll(getPlaces(savedVoiture));
+		//this.placeRepository.saveAll(getPlaces(savedVoiture));
 		
 		//Trajet savedTrajet =   this.trajetService.insertTrajet(train);
 		

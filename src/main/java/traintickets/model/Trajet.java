@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Set;
 import java.util.UUID;
 import com.fasterxml.jackson.annotation.JsonProperty;
-import jakarta.persistence.*;
+import javax.persistence.*;
 import lombok.Data;
 import traintickets.commun.converter.TrainTypeConverter;
 import traintickets.commun.enums.TrainTypeEnum;

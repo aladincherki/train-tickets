@@ -3,8 +3,7 @@ package traintickets.model;
 
 import java.util.UUID;
 
-import jakarta.persistence.*;
-
+import javax.persistence.*;
 
 @Entity
 public class Place {

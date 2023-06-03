@@ -1,4 +1,4 @@
-package traintickets.config;
+/*package traintickets.config;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -40,7 +40,7 @@ public class BatchConfig {
 	private DataSource dataSource;
 	
 
-    
+
     
     @Bean
     public Job listTrajetsJob(JobBuilderFactory jobBuilderFactory, StepBuilderFactory stepBuilderFactory) {
@@ -64,7 +64,7 @@ public class BatchConfig {
 		//cursorItemReader.setRowMapper(new PersonRowMapper());
 		return cursorItemReader;
 	}
-}
+}*/
 
 /*class TrainRowMapper implements RowMapper<Train> {
 
